@@ -7,18 +7,22 @@ class Human:
         self.house = house
         self.car = car
         self.job = job
-        self.money = 100
+        self.money = 10
         self.fun = 50
         self.satiety = 50
 
     def eat(self):
         pass
 
-    def work(self):
-        pass
+    def work(self, money=10):
+        self.money += 10
 
-    def shopping(self, purchase):
-        pass
+
+    def shopping(self, money=8, food=8):
+        self.money -= 8
+        self.house.food += 3
+        self.house.mess -= 1
+        self.fun += 2
 
     def cleaning(self):
         pass
@@ -89,7 +93,11 @@ class Human:
         if self.money < 0:
             print("Я йду на роботу")
             self.work()
-        #elif
+        elif self.money > 0:
+            print("Я йду на шопінг")
+            self.shopping()
+        if self.fun
+
 
 
 
