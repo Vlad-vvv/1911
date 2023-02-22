@@ -1,16 +1,16 @@
 class Human:
     height = 170
-    age = 30
-    gladness = 10
+    __age = 30
+    gladness = 50
+
 
 
 class Student(Human):
-    age = 17
+    pass
 
 
 class Aspirant(Student):
     height = 180
-
     def __init__(self):
         print(self.height)
         print(self.age)
@@ -23,11 +23,12 @@ class Aspirant(Student):
         print("__Hello")
 
 
+
 class Worker(Human):
     age = 50
 
 
-class Hello_Kitty:
+class Hello_Kity:
     hello = "Hello"
     _hello = "_Hello"
     __hello = "__Hello"
@@ -49,7 +50,7 @@ class Hello_Kitty:
         print("Method")
 
 
-class Hi(Hello_Kitty):
+class Hi(Hello_Kity):
     def hi_print(self):
         super().__method()
         print(self.hello)
@@ -59,20 +60,21 @@ class Hi(Hello_Kitty):
         print(self._kity)
         print(self.__kity)
 
+
 class Computer:
-    def __init__(self):
+    def __init__(self, model, *args, **kwargs):
         super().__init__()
+        self.model = model
         self.RAM = "16 Gb"
 
     def calc(self):
-        print("Calculate.....")
+        print("Calculate....")
 
 
 class Monitor:
-    def __init__(self,):
+    def __init__(self, *args, **kwargs):
         super().__init__()
-        self.modul = None
-        self.resolution = "8k"
+        self.resolution = "8K"
 
     def display(self):
         print("Print result")
@@ -82,27 +84,25 @@ class SmartPhone(Computer, Monitor):
     def info(self):
         print(self.RAM)
         print(self.resolution)
-        print(self.modul)
+        print(self.model)
 
-phone = SmartPhone(modul="Aplle")
+
+
+phone = SmartPhone(model="Apple 15")
 phone.info()
 
 
-'''
-#hello = Hello_Kitty()
+#hello = Hello_Kity()
 #hello.print()
 
-hi = Hi()
-hi.hi_print()
+#hi = Hi()
+#hi.hi_print()
 
-asp = Aspirant()
-asp.age = 1000000
+#asp = Aspirant()
+#asp.age = 10000
 
 
-asp._hello()
-asp.__hello()
-
-st = Student
-wr = Worker
-print(st.height, st.age)
-print(wr.height, wr.age)'''
+'''st = Student()
+wr = Worker()
+print(st.age)
+print(wr.age)'''
