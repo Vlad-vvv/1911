@@ -12,7 +12,7 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="74369749-acab-4e0b-a3f5-7dde36005413">
+    <connection id="5b4adc93-47e3-4c8f-b56b-a2e4080f5c83">
       <console name="Connection" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
@@ -21,11 +21,22 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
-      <object connection-id="74369749-acab-4e0b-a3f5-7dde36005413" object-ref="schemas/main/tables/users" />
+      <object connection-id="5b4adc93-47e3-4c8f-b56b-a2e4080f5c83" object-ref="schemas/main/tables/users" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="74369749-acab-4e0b-a3f5-7dde36005413" dataset="main.users" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="5b4adc93-47e3-4c8f-b56b-a2e4080f5c83" dataset="main.users" active-filter-id="EMPTY_FILTER" />
+  </component>
+  <component name="DBNavigator.Project.ExecutionManager">
+    <retain-sticky-names value="false" />
+  </component>
+  <component name="DBNavigator.Project.MethodExecutionManager">
+    <method-browser />
+    <execution-history>
+      <group-entries value="true" />
+      <execution-inputs />
+    </execution-history>
+    <argument-values-cache />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
@@ -33,7 +44,7 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="74369749-acab-4e0b-a3f5-7dde36005413" active="true" signed="true">
+      <connection id="5b4adc93-47e3-4c8f-b56b-a2e4080f5c83" active="true" signed="true">
         <database>
           <name value="Connection" />
           <description value="" />
@@ -48,7 +59,7 @@
           <port value="" />
           <database value="" />
           <files>
-            <file path="C:\Users\Vlad\PycharmProjects\Leson1\10\database.sl3" schema="main" />
+            <file path="C:\Users\Vlad\PycharmProjects\Leson1\test\database.sl3" schema="main" />
           </files>
           <type value="NONE" />
           <user value="" />

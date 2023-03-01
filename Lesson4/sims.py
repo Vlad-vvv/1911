@@ -96,7 +96,7 @@ class Human:
         elif self.money > 0:
             print("Я йду на шопінг")
             self.shopping()
-        if self.fun
+
 
 
 

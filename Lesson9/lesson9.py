@@ -1,6 +1,6 @@
 import requests
 
-'''
+
 list_currency = []
 response = requests.get("https://coinmarketcap.com/")
 response_text = response.text
@@ -13,12 +13,12 @@ for elem in response_parse:
                 #print(elem2)
 
 print(list_currency)
-print(3 * list_currency[0])'''
-
+print(3 * list_currency[0])
+'''
 from bs4 import BeautifulSoup
 response = requests.get("https://bank.gov.ua/")
 if response.status_code == 200:
     soup = BeautifulSoup(response.text, features="html.parser")
     soup_text = soup.find_all("a", {"href" : "markets/exchangerates"})
     res = soup_text[0].find("a")
-    print(res.text)
+    print(res.text)'''

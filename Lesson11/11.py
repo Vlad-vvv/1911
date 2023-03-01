@@ -1,7 +1,7 @@
 import cv2
 from PIL import Image
 
-image_path = 'cat.jpeg'
+image_path = 'Thinking-of-getting-a-cat.png'
 image = cv2.imread(image_path)
 cat_face_cascade = cv2.CascadeClassifier('haarcascade_frontalcatface_extended.xml')
 #cat_face_cascade2 = cv2.CascadeClassifier('haarcascade_eye.xml')
